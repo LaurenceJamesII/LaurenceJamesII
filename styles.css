@@ -488,6 +488,20 @@ body {
     color: var(--white);
 }
 
+.contact-link-primary {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-weight: 600;
+    padding: 1.2rem;
+    border-radius: var(--border-radius);
+}
+
+.contact-link-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
 .contact-link i {
     font-size: 1.5rem;
 }
